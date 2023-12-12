@@ -451,6 +451,54 @@ $jml_kriteria =count($kriteria);
           </div>
         </div>
       </div>
+
+      <!-- Tabel Perangkingan -->
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        Perangkingan Hasil
+      </div>
+      <div class="panel-body">
+        <table class="table table-striped table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>Peringkat</th>
+              <th>Nama</th>
+              <th>Nilai Preferensi (V<sub>i</sub>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php
+            $peringkat = array();
+            arsort($V); // Mengurutkan array berdasarkan nilai preferensi (descending)
+            $ranking = 1;
+            foreach ($V as $index => $nilai) {
+              $nama_alternatif = array_keys($data)[$index];
+              $nama = $nama_alternatif;
+              echo "<tr>
+                <td>{$ranking}</td>
+                <td>{$nama}</td>
+                <td>{$nilai}</td>
+              </tr>\n";
+              $peringkat[$nama_alternatif] = $ranking;
+              $ranking++;
+            }
+            ?>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+      
+
+      
     </div> <!--container-->
 
     <!--footer-->
