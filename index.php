@@ -12,7 +12,7 @@ include "koneksi.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SPK Pemilihan Jasa Ekspedisi Metode Topsis</title>
+    <title>SPK Pemilihan Karyawan Terbaik</title>
     <!--bootstrap-->
     <link href="tampilan/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/slider.css" rel="stylesheet" type="text/css" media="all">
@@ -52,21 +52,14 @@ include "koneksi.php";
       </div>
     </nav><br><br>
 
-    <div id="slider" >
-      <figure>
-        <img src="gambar/eks1.png">
-        <img src="gambar/eks2.png">
-        <img src="gambar/eks3.png">
-        <img src="gambar/eks4.png">
-      </figure>
-    </div> <br><br>
+    
     <!--footer-->
     <footer class="text-center">
       <div class="footer-below">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <em>##SPK Pemilihan Jasa Ekspedisi Metode Topsis</em>
+              <em>SPK Pemilihan Karyawan Terbaik</em>
             </div>
           </div>
         </div>

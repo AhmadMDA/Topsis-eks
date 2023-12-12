@@ -12,7 +12,7 @@ include ("koneksi.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SPK Pemilihan Jasa Ekspedisi Metode Topsis</title>
+    <title>SPK Pemilihan Karyawan Terbaik</title>
     <!--bootstrap-->
     <link href="tampilan/css/bootstrap.min.css" rel="stylesheet">
 
@@ -32,7 +32,7 @@ include ("koneksi.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">SPK Pemilihan Jasa Ekspedisi Metode Topsis</a>
+          <a class="navbar-brand" href="index.php">SPK Pemilihan Karyawan Terbaik</a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -124,7 +124,7 @@ include ("koneksi.php");
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-                            <em>##SPK Pemilihan Jasa Ekspedisi Metode Topsis</em>
+                            <em>SPK Pemilihan Karyawan Terbaik</em>
             </div>
           </div>
         </div>

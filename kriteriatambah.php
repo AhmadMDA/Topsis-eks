@@ -9,7 +9,7 @@ $datakode = $carikode->fetch_array();
 $jumlah_data = mysqli_num_rows($carikode);
 
 if ($datakode) {
-  $nilaikode = substr($jumlah_data[0], 1);
+  $nilaikode = substr($jumlah_data, 1);
   $kode = (int) $nilaikode;
   $kode = $jumlah_data + 1;
   $kode_otomatis = str_pad($kode, 0, STR_PAD_LEFT);
