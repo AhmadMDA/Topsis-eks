@@ -9,7 +9,7 @@ $datakode = $carikode->fetch_array();
 $jumlah_data = mysqli_num_rows($carikode);
 
 if ($datakode) {
-  $nilaikode = substr($jumlah_data[0], 1);
+  $nilaikode = substr($jumlah_data, 1);
   $kode = (int) $nilaikode;
   $kode = $jumlah_data + 1;
   $kode_otomatis = str_pad($kode, 0, STR_PAD_LEFT);
@@ -26,7 +26,7 @@ if ($datakode) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SPK Pemilihan Jasa Ekspedisi Metode Topsis</title>
+    <title>SPK Pemilihan Karyawan Terbaik</title>
     <!--bootstrap-->
     <link href="tampilan/css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,7 +46,7 @@ if ($datakode) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">SPK Pemilihan Jasa Ekspedisi Metode Topsis</a>
+          <a class="navbar-brand" href="index.php">SPK Pemilihan Karyawan Terbaik</a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -119,7 +119,7 @@ if ($datakode) {
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <em>##SPK Pemilihan Jasa Ekspedisi Metode Topsis</em>
+              <em>SPK Pemilihan Karyawan Terbaik</em>
             </div>
           </div>
         </div>
