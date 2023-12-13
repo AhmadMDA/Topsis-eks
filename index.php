@@ -17,6 +17,34 @@ include "koneksi.php";
     <link href="tampilan/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/slider.css" rel="stylesheet" type="text/css" media="all">
 
+    <style>
+
+    img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6E7AB7;
+        
+    }
+
+    h1, h3 {
+        font-size: 2em;
+        color: #3384C5;
+        position: static;
+        text-align: center;
+        
+        margin:0 0 20px 0; 
+        line-height:normal; 
+        font-weight:normal; 
+        text-transform:capitalize;
+
+    }
+    </style>
+
   </head>
   <body><br>
 <!--navbar navbar-default navbar-custom-->
@@ -51,6 +79,40 @@ include "koneksi.php";
         </div>
       </div>
     </nav><br><br>
+
+    <div class="img">
+        <!-- Konten Anda akan ditempatkan di sini -->
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+
+        <h1>Sistem Pemilihan Karyawan Terbaik Menggunakan Metode TOPSIS </h1>
+        <h3> Kelompok 1</h3>
+
+        
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+
+
+
+
+        <!-- <img src="gambar/bag2.jpeg" alt="bag"> -->
+    </div>
+    
+
+
+    
+
+
+    
 
     
     <!--footer-->

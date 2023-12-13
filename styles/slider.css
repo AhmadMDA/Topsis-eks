@@ -31,3 +31,24 @@
 	font-size: 0;
 	animation: 10s slider infinite; 
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8d1717; 
+}
+
+h1 {
+    font-size: 7em;
+}

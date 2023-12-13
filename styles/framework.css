@@ -168,3 +168,14 @@ h1, h2, h3, h4, h5, h6{
 .two_third{width:65.6441717791411%;}
 .three_quarter{width:74.23312883435584%;}
 
+.background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; 
+}
+
